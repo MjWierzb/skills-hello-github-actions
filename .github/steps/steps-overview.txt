@@ -1,0 +1,23 @@
+Step 1 - Create a workflow file:
+  • Introduces the idea of GitHub Actions workflows and explains that they live in the .github/workflows directory.
+  • Guides you to create a new branch named "welcome-workflow" and add a starter welcome.yml workflow triggered by pull_request events.
+
+Step 2 - Add a job to the workflow file:
+  • Explains that jobs group related steps and run on a specified runner.
+  • Has you extend welcome.yml by adding a jobs section with a single welcome job that runs on ubuntu-latest.
+
+Step 3 - Add a step to the workflow job:
+  • Describes how steps run inside a job and can invoke actions or shell commands.
+  • Instructs you to add a step that uses the GitHub CLI to comment on the pull request, including required environment variables.
+
+Step 4 - Trigger the workflow:
+  • Covers how workflows appear in the Actions tab and how pull_request events trigger them.
+  • Directs you to open a pull request from welcome-workflow to main so the workflow posts its welcome comment, and to review the run details.
+
+Step 5 - Merge and experiment:
+  • Explains that workflows become active for the whole repository once merged into the default branch.
+  • Tells you to merge the pull request and optionally test the workflow again by opening another pull request.
+
+Finish - Review accomplishments:
+  • Celebrates completing the exercise and summarizes what you accomplished across the steps.
+  • Suggests additional resources for continuing to learn about GitHub Actions.
